@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference android:title="Honden"
+        android:id="@+id/dogs"
+        android:defaultValue="true"
+        android:summary="Zet uit voor katten"
+        android:key="dogs" />
+
+</PreferenceScreen>

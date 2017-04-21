@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.maaik.helloworld.SettingsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar2"
+        android:layout_width="389dp"
+        android:layout_height="57dp"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="-1dp"
+        android:layout_marginLeft="-21dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:background="@drawable/left"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="115dp"
+        android:layout_height="32dp"
+        android:text="@string/tv_settings"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="14dp"
+        android:layout_marginLeft="65dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="81dp"
+        android:layout_marginLeft="305dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="403dp"
+        android:layout_height="38dp"
+        android:text="@string/location_settings"
+        android:textSize="20sp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="81dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="400dp"
+        android:layout_height="12dp"
+        android:layout_marginLeft="-8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="117dp" />
+
+</android.support.constraint.ConstraintLayout>
